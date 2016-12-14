@@ -1,149 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" ng-app="myApp">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/controllers.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
 	<title>My Giants Grid Display</title>
 </head>
 <body>
 
+<div class="main" ng-controller = "MyController">
 	<div class="container" id="grid">
 		<div class="row">
 			<h1>Giants Roster</h1>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/BrandonBelt.png" alt="Brandon Belt" data-position-group="infielder" />
-					<div>
-						<h3>Brandon Belt</h3>
-						<p>Bats: Left<br/>Throws: Left<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/BrandonCrawford.png" alt="Brandon Crawford" data-position-group="infielder" />
-					<div>
-						<h3>Brandon Crawford</h3>
-						<p>Bats: Left<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/BusterPosey.png" alt="Buster Posey" data-position-group="catcher" />
-					<div>
-						<h3>Buster Posey</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/DenardSpan.png" alt="Denard Span" data-position-group="outfielder" />
-					<div>
-						<h3>Denard Span</h3>
-						<p>Bats: Left<br/>Throws: Left<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/DerekLaw.png" alt="Derek Law" data-position-group="pitcher" data-pitcher-role="reliever" />
-					<div>
-						<h3>Derek Law</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/EduardoNunez.png" alt="Eduardo Nunez" data-position-group="infielder" />
-					<div>
-						<h3>Eduardo Nunez</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/GeorgeKontos.png" alt="George Kontos" data-position-group="pitcher" data-pitcher-role="reliever" />
-					<div>
-						<h3>George Kontos</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/HunterPence.png" alt="Hunter Pence" data-position-group="outfielder" />
-					<div>
-						<h3>Hunter Pence</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/HunterStrickland.png" alt="Hunter Strickland" data-position-group="pitcher" data-pitcher-role="reliever" />
-					<div>
-						<h3>Hunter Strickland</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/JeffSamardzija.png" alt="Jeff Samardzija" data-position-group="pitcher" data-pitcher-role="starter" />
-					<div>
-						<h3>Jeff Samardzija</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/JoePanik.png" alt="Joe Panik" data-position-group="infielder" />
-					<div>
-						<h3>Joe Panik</h3>
-						<p>Bats: Left<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/MadisonBumgarner.png" alt="Madison Bumgarner" data-position-group="pitcher" data-pitcher-role="starter" />
-					<div>
-						<h3>Madison Bumgarner</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/JohnnyCueto.png" alt="Johnny Cueto" data-position-group="pitcher" data-pitcher-role="starter" />
-					<div>
-						<h3>Johnny Cueto</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/MattCain.png" alt="Matt Cain" data-position-group="pitcher" data-pitcher-role="starter" />
-					<div>
-						<h3>Matt Cain</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/MattMoore.png" alt="Matt Moore" data-position-group="pitcher" data-pitcher-role="starter" />
-					<div>
-						<h3>Matt Moore</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/MarkMelancon.png" alt="Mark Melancon" data-position-group="pitcher" data-pitcher-role="reliever" />
-					<div>
-						<h3>Mark Melancon</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-md-offset-3 col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/JarrettParker.png" alt="Jarrett Parker" data-position-group="outfielder" />
-					<div>
-						<h3>Jarrett Parker</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-					<img class="img-responsive center-block img-circle" src="images/MacWilliamson.png" alt="Mac Williamson" data-position-group="outfielder" />
-					<div>
-						<h3>Mac Williamson</h3>
-						<p>Bats: Right<br/>Throws: Right<br/></p>
-					</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="item in players">
+				<img class="img-responsive center-block img-circle" ng-src="images/{{item.firstname}}{{item.lastname}}.png" alt="{{item.firstname}} {{item.lastname}}" data-position-group="infielder" />
+				<div class="info">
+					<h3>{{item.firstname}} {{item.lastname}}</h3>
+					<p>Bats: {{item.bats}}<br/>Throws: {{item.throws}}</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/script.js"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
