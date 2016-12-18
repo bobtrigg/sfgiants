@@ -1,0 +1,67 @@
+<section class="grid">
+	<!-- <div class="main" ng-controller = "MyController"> -->
+		<div class="container" id="grid">
+
+			<div class="row">
+				<h1>Giants Roster</h1>
+			</div>
+
+			<div class="row filter">
+
+				<p>Select a category</p>
+				
+			    <div class="radio radio-inline">
+				    <label class="formgroup">
+				      <input type="radio" ng-model="position" name="position" value="pitcher" />
+				      Pitchers
+				    </label>
+				</div>
+				    
+			    <div class="radio radio-inline">
+				    <label class="formgroup">
+				      <input type="radio" ng-model="position" name="position" value="catcher" />
+				      Catchers
+				    </label>
+				</div>
+				    
+			    <div class="radio radio-inline">
+				    <label class="formgroup">
+				      <input type="radio" ng-model="position" name="position" value="infielder" />
+				      Infielders
+				    </label>
+				</div>
+				    
+			    <div class="radio radio-inline">
+				    <label class="formgroup">
+				      <input type="radio" ng-model="position" name="position" value="outfielder" />
+				      Outfielders
+				    </label>
+				</div>
+				    
+			    <div class="radio radio-inline">
+				    <label class="formgroup">
+				      <input type="radio" ng-model="position" name="position" default />
+				      All
+				    </label>
+				</div>
+				    
+
+	 		</div>
+
+			<div class="row">
+				<a href="#/carousel">Go to carousel</a>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="item in players | filter:position ">
+					<img class="img-responsive center-block img-circle" ng-src="images/{{item.firstname}}{{item.lastname}}.png" alt="{{item.firstname}} {{item.lastname}}" data-position-group="infielder" />
+					<div class="info">
+						<h3>{{item.firstname}} {{item.lastname}}</h3>
+						<p>Bats: {{item.bats}}<br/>Throws: {{item.throws}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- </div> -->
+
+</section>
