@@ -48,8 +48,8 @@
 	 		</div>
 
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="item in players | filter:position ">
-					<img class="img-responsive center-block img-circle" ng-src="images/{{item.firstname}}{{item.lastname}}.png" alt="{{item.firstname}} {{item.lastname}}" data-position-group="infielder" />
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="item in players.data | filter:position ">
+					<img class="img-responsive center-block img-circle" ng-src="images/{{item.firstname}}{{item.lastname}}.png" alt="{{item.firstname}} {{item.lastname}}" data-position-group="{{item.position}}" />
 					<div class="info">
 						<h3>{{item.firstname}} {{item.lastname}}</h3>
 						<p>Bats: {{item.bats}}<br/>Throws: {{item.throws}}</p>
