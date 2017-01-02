@@ -51,12 +51,16 @@
 				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="item in players.data | filter:position ">
 					<img class="img-responsive center-block img-circle" ng-src="images/{{item.firstname}}{{item.lastname}}.png" alt="{{item.firstname}} {{item.lastname}}" data-position-group="{{item.position}}" />
 					<div class="info">
-						<h3>{{item.firstname}} {{item.lastname}}</h3>
+						<h3>
+							<a ng-if="item.position !== 'pitcher'" ng-href="#!/player/{{item.playerId}}">{{item.firstname}} {{item.lastname}}</a>
+							<a ng-if="item.position === 'pitcher'" ng-href="#!/pitcher/{{item.playerId}}">{{item.firstname}} {{item.lastname}}</a>
+						</h3>
 						<p>Bats: {{item.bats}}<br/>Throws: {{item.throws}}</p>
+						<p>Id: {{item.playerId}}</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	<!-- </div> -->
-
+<div>{{stats}}</div>
 </section>

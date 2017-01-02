@@ -1,0 +1,30 @@
+<section>
+<div ng-include="'partials/player.html'"></div>
+<table style="border:1px solid black;">
+	<thead>
+		
+	</thead>
+	<tr>
+		<th>
+			Batting Average
+		</th>
+		<th>
+			RBIs
+		</th>
+		<th>
+			Home Runs
+		</th>
+	</tr>
+	<tr>
+		<td>
+			{{stats.hitting.avg}}
+		</td>
+		<td>
+			{{stats.hitting.rbi}}
+		</td>
+		<td>
+			{{stats.hitting.onbase.hr}}
+		</td>
+	</tr>
+</table>
+</section>

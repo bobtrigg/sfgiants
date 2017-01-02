@@ -1,0 +1,30 @@
+<section>
+<div ng-include="'partials/player.html'"></div>
+<table style="border:1px solid black;">
+	<thead>
+		
+	</thead>
+	<tr>
+		<th>
+			W-L
+		</th>
+		<th>
+			ERA
+		</th>
+		<th>
+			Ks
+		</th>
+	</tr>
+	<tr>
+		<td>
+			{{stats.pitching.games.win}}-{{stats.pitching.games.loss}}
+		</td>
+		<td>
+			{{stats.pitching.era}}
+		</td>
+		<td>
+			{{stats.pitching.outs.ktotal}}
+		</td>
+	</tr>
+</table>
+</section>

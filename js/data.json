@@ -5,7 +5,8 @@
 	    "position":"infielder",
 	    "role":"none",
 	    "bats":"Left",
-        "throws":"Left"
+        "throws":"Left",
+        "playerId": "36ee970b-0cff-4d50-b8ac-9bd16fae2dd1"
     },
 	{
 	    "firstname":"Brandon",
@@ -13,7 +14,8 @@
 	    "position":"infielder",
 	    "role":"none",
 	    "bats":"Left",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "d456e10f-20e9-44c2-a15a-6c66951e5afe"
     },
 	{
 	    "firstname":"Buster",
@@ -21,7 +23,8 @@
 	    "position":"catcher",
 	    "role":"none",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "898c62b6-95bf-4973-a435-c6cb42a52158"
     },
     {
 	    "firstname":"Denard",
@@ -29,7 +32,8 @@
 	    "position":"outfielder",
 	    "role":"none",
 	    "bats":"Left",
-        "throws":"Left"
+        "throws":"Left",
+        "playerId": "46433f9b-536e-427c-b9ea-1f98b31de665"
     },
     {
 	    "firstname":"Derek",
@@ -37,7 +41,8 @@
 	    "position":"pitcher",
 	    "role":"reliever",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "4b3f17a9-80c5-4a06-87b6-c515f3c34c42"
     },
     {
 	    "firstname":"Eduardo",
@@ -45,7 +50,8 @@
 	    "position":"infielder",
 	    "role":"none",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "ecdcb57f-d0c5-4409-89ee-6680a77588de"
     },
     {
 	    "firstname":"George",
@@ -53,7 +59,8 @@
 	    "position":"pitcher",
 	    "role":"reliever",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "3e254063-ebaf-48ce-963c-64477c57b67a"
     },
     {
 	    "firstname":"Hunter",
@@ -61,7 +68,8 @@
 	    "position":"outfielder",
 	    "role":"none",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "2ff4584d-de32-4be0-be6b-b0afa6607d4c"
     },
     {
 	    "firstname":"Hunter",
@@ -69,7 +77,8 @@
 	    "position":"pitcher",
 	    "role":"reliever",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "62d08991-cdca-41a8-ac74-dbc4be778c4f"
     },
     {
 	    "firstname":"Jeff",
@@ -77,7 +86,8 @@
 	    "position":"pitcher",
 	    "role":"starter",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "c8f30e7e-118c-4a16-b899-8ef2cfc75f02"
     },
     {
 	    "firstname":"Joe",
@@ -85,7 +95,8 @@
 	    "position":"infielder",
 	    "role":"none",
 	    "bats":"Left",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "e47bf865-f612-47f6-8a21-3110bb455e31"
     },
     {
 	    "firstname":"Madison",
@@ -93,7 +104,8 @@
 	    "position":"pitcher",
 	    "role":"starter",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "f05364d7-024b-4699-b947-c8bb42c968bc"
     },
     {
 	    "firstname":"Johnny",
@@ -101,7 +113,8 @@
 	    "position":"pitcher",
 	    "role":"starter",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "1a574c70-eb33-4202-ab97-548645a4d15e"
     },
     {
 	    "firstname":"Matt",
@@ -109,7 +122,8 @@
 	    "position":"pitcher",
 	    "role":"starter",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "a9dfa1f9-c5d3-449a-8c40-52f646efb498"
     },
     {
 	    "firstname":"Matt",
@@ -117,7 +131,8 @@
 	    "position":"pitcher",
 	    "role":"starter",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "a4d6c32a-74f0-45ff-a397-ca045fcaba2b"
     },
     {
 	    "firstname":"Mark",
@@ -125,7 +140,8 @@
 	    "position":"pitcher",
 	    "role":"reliever",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "01982903-301b-41eb-8a8d-b88a7b3070d0"
     },
     {
 	    "firstname":"Jarrett",
@@ -133,7 +149,8 @@
 	    "position":"outfielder",
 	    "role":"none",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "a0890c50-1874-4931-8401-ffc16f02d61d"
     },
     {
 	    "firstname":"Mac",
@@ -141,6 +158,7 @@
 	    "position":"outfielder",
 	    "role":"none",
 	    "bats":"Right",
-        "throws":"Right"
+        "throws":"Right",
+        "playerId": "714cfcc5-25e6-4512-91c5-ee67bd468884"
     }
 ]
