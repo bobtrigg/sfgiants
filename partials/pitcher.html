@@ -1,6 +1,6 @@
-<section>
 <div ng-include="'partials/player.html'"></div>
-<table style="border:1px solid black;">
+<section>
+<table class="statstable">
 	<thead>
 		
 	</thead>
@@ -9,10 +9,19 @@
 			W-L
 		</th>
 		<th>
+			W-L Pct
+		</th>
+		<th>
 			ERA
 		</th>
 		<th>
 			Ks
+		</th>
+		<th>
+			WHIP
+		</th>
+		<th>
+			Saves
 		</th>
 	</tr>
 	<tr>
@@ -20,11 +29,21 @@
 			{{stats.pitching.games.win}}-{{stats.pitching.games.loss}}
 		</td>
 		<td>
-			{{stats.pitching.era}}
+			{{(stats.pitching.games.win / (stats.pitching.games.win + stats.pitching.games.loss)) | percentage}}
+		</td>
+		<td>
+			{{stats.pitching.era | era}}
 		</td>
 		<td>
 			{{stats.pitching.outs.ktotal}}
 		</td>
+		<td>
+			{{stats.pitching.whip}}
+		</td>
+		<td>
+			{{stats.pitching.games.save}}
+		</td>
 	</tr>
 </table>
 </section>
+<div ng-include="'partials/footer.html'"></div>

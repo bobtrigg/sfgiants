@@ -11,7 +11,7 @@ class DataFeeder {
 	public function getData($id) {
 
 		$configHelper = new ConfigHelper();
-		$apiKey = $configHelper->getApiKey();
+		$apiKey = $configHelper->getConfig('apiKey');
 
 		$url = self::DOMAIN . 'mlb-t5/players/' . $id . '/profile.json?api_key=' . $apiKey;
 		$ch = curl_init($url);

@@ -32,3 +32,13 @@ myApp.filter('removeSpace', function() {
     return input.replace(/ /, '');
   }
 });
+myApp.filter('percentage', function() {
+  return function(input) {
+    return Number(input).toFixed(3).replace(/0+/,'');
+  }
+});
+myApp.filter('era', function() {
+  return function(input) {
+    return Number(input).toFixed(2);
+  }
+});

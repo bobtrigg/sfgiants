@@ -1,6 +1,6 @@
-<section>
 <div ng-include="'partials/player.html'"></div>
-<table style="border:1px solid black;">
+<section>
+<table class="statstable">
 	<thead>
 		
 	</thead>
@@ -14,10 +14,19 @@
 		<th>
 			Home Runs
 		</th>
+		<th>
+			Slugging
+		</th>
+		<th>
+			On Base Pct
+		</th>
+		<th>
+			OPS
+		</th>
 	</tr>
 	<tr>
 		<td>
-			{{stats.hitting.avg}}
+			{{stats.hitting.avg | percentage}}
 		</td>
 		<td>
 			{{stats.hitting.rbi}}
@@ -25,6 +34,16 @@
 		<td>
 			{{stats.hitting.onbase.hr}}
 		</td>
+		<td>
+			{{stats.hitting.slg | percentage}}
+		</td>
+		<td>
+			{{stats.hitting.obp | percentage}}
+		</td>
+		<td>
+			{{stats.hitting.ops | percentage}}
+		</td>
 	</tr>
 </table>
 </section>
+<div ng-include="'partials/footer.html'"></div>
